@@ -18,6 +18,10 @@ Como experimento prático ele esta contextualizado na construção de um sistema
 
 O Sistema "SearchHours" faz o controle de horas complementares de alunos da instituição acadêmica. Basicamente, nele o aluno pode inserir atividades para serem validades como horas complementares de acordo com as regras previamente configuradas no sistema pelo administrador e pelo aval do coordenador do curso.O sistema também permite que professores insiram recomendações de atividades, também de acordo com categorias existentes no sistema para que sejam realizadas pelos alunos, tais como, livros, filmes, cursos ou voluntariados.
 
+Conforme imagem apresentada abaixo:
+
+![Principais Funções do Sistema](https://i.ibb.co/dWRPNf6/diagrama-casouso-controoooora.png)
+
 
 #### 2.1 - ATORES
 - [x] ALUNO
