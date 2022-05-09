@@ -25,7 +25,7 @@ Conforme imagem apresentada abaixo:
 
 #### 2.1 - ATORES
 - [x] ALUNO
-- [ ] PROFESSOR
+- [x] PROFESSOR
 - [ ] COORDENADOR
 - [ ] ADMINISTRADOR
 
