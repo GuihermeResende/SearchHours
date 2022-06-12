@@ -66,6 +66,8 @@ Conforme imagem apresentada abaixo:
 Banco de dados com as tabelas das entidades: 
 ![image](https://user-images.githubusercontent.com/70167193/173247141-bb291bcc-0090-4a50-8d1f-25f328d02f4c.png)
 
+Protótipo da tela na ferramenta Figma:
+![image](https://user-images.githubusercontent.com/80754169/173248127-6a1e1be4-fb39-4493-942d-84a08c682cf3.png)
 
 
 ### 4. REFERÊNCIAS ÚTEIS [opcional]
