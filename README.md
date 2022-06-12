@@ -1,7 +1,7 @@
 # SearchHours
 
 ### 1. APRESENTAÇÃO
-É uma ferramenta desenvolvida para o envio de horas complementares, tanto para ambiente profissional como educacional  It is a tool developed for sending additional hours, both for professional and educational environments.
+É uma ferramenta desenvolvida para o envio de horas complementares, tanto para ambiente profissional como educacional.
 
 Este é um projeto de apoio didático composto por um conjunto de atividades práticas relacionadas a temas das disciplinas de engenharia de software, tais como: análise e programação orientada a objetos, padrões de projeto, modelagem visual com UML e algumas práticas ágeis (como refactoring e testes unitários);  
 
@@ -26,13 +26,13 @@ Conforme imagem apresentada abaixo:
 #### 2.1 - ATORES
 - [x] ALUNO
 - [x] PROFESSOR
-- [ ] COORDENADOR
-- [ ] ADMINISTRADOR
+- [x] COORDENADOR
+- [x] ADMINISTRADOR
 
 #### 2.2 - REQUISITOS FUNCIONAIS [obrigatório]
  - [x] CRUD DE CATEGORIAS (completo); 
  - [x] CRUD DE ATIVIDADES (completo);
- - [ ] APROVAR PARTICIPAÇÃO;
+ - [x] APROVAR PARTICIPAÇÃO;
  - [ ] RELATORIO TURMA
  - [x] RECOMENDAR (CRUD); 
  - [ ] CADASTRAR PARTICIPAÇÃO (CRUD) 
@@ -52,10 +52,20 @@ Conforme imagem apresentada abaixo:
  - [ ] O dashboard geral somente poderá
 
 #### 2.4 - ESPECIFICAÇÃO TÉCNICA [obrigatório]
-- no servidor o sistema é desenvolvido em PHP com Laravel; (exemplo)
-- o banco de dados é relacional e executado no SGBD MySQL. Para modelagem foi utilizado o brModelo e o Draw.io;
+- O sistema foi desenvolvido em java, com o framework Spring Boot;
+- As camadas do sistema estão divididas em: 
+- 𝘼𝙋𝙋𝙇𝙄𝘾𝘼𝙏𝙄𝙊𝙉 (camada que realiza as requisições, acessando os serviços). 
+- 𝘾𝙊𝙉𝙁𝙄𝙂 (camada que cria automaticamente um administrador no banco de dados, possuindo os seus privilégios específicos. 
+- 𝘿𝙊𝙈𝘼𝙄𝙉 (camada que possui as entidades e DTO's que são classes de transferência de dados), 
+- 𝙍𝙀𝙋𝙊𝙎𝙄𝙏𝙊𝙍𝙄𝙀𝙎 (camada que acessa o banco de dados), 
+- 𝙎𝙀𝘾𝙐𝙍𝙄𝙏𝙔 (Camada que faz verificações de autenticação do usuário e gera um TOKEN para cada login), 
+- 𝙎𝙀𝙍𝙑𝙄𝘾𝙀𝙎 (camada que contém a regra de negócio, faz verificações e ações no sistema
+- o banco de dados é relacional e executado no MySQL.
 
 ### 3. RESULTADOS
+Banco de dados com as tabelas das entidades: 
+![image](https://user-images.githubusercontent.com/70167193/173247141-bb291bcc-0090-4a50-8d1f-25f328d02f4c.png)
+
 
 
 ### 4. REFERÊNCIAS ÚTEIS [opcional]
