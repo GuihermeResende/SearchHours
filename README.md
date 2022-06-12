@@ -72,3 +72,6 @@ Protótipo da tela na ferramenta Figma:
 
 ### 4. REFERÊNCIAS ÚTEIS [opcional]
 
+https://www.figma.com/file/XT3JpXY59hu54edsNfloM4/Atividade-Projeto-Integrador
+
+
